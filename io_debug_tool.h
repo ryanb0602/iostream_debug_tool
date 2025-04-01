@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
 
-#ifndef IO_DEBUG_TOOL_H
-#define IO_DEBUG_TOOL_H
-
 #define SILENT 0
 #define MAIN_FUNCTIONS 1
 #define MAIN_AND_SUB_FUNCTIONS 2
 #define MAIN_SUB_AND_NUMERICAL_DATA 3
+
+#ifndef IO_DEBUG_TOOL_H
+#define IO_DEBUG_TOOL_H
 
 class debug_tool {
     public:

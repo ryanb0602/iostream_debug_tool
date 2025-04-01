@@ -1,7 +1,5 @@
 #include "io_debug_tool.h"
 
-#ifndef IO_DEBUG_TOOL_H
-#define IO_DEBUG_TOOL_H
 
 debug_tool *debug_link;
 
@@ -25,5 +23,3 @@ void debug_print(int level, const char *message) {
         std::cout << message << std::endl;
     }
 }
-
-#endif
